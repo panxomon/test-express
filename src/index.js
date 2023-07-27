@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 setRutas(app)
 
-console.log ('Iniciando servidor ....')
+console.log ('Iniciando servidor ...')
 app.listen(port, err => {
     if (err){
         console.log('Error app listen')
